@@ -1,0 +1,75 @@
+<!-- A drawn stand-in for the photograph of the school building.
+     The real website shows a cut-out photograph in this slot; photographs
+     of the school are deliberately not kept in this repository. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img"
+     aria-label="Illustration standing in for a photograph of the school building">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#28336B"/>
+      <stop offset="1" stop-color="#161E45"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8E7230"/>
+      <stop offset=".5" stop-color="#D9B44A"/>
+      <stop offset="1" stop-color="#8E7230"/>
+    </linearGradient>
+  </defs>
+
+  <!-- clock tower -->
+  <rect x="330" y="86" width="100" height="150" fill="url(#wall)" stroke="#D9B44A" stroke-width="2"/>
+  <path d="M322 90 L380 44 L438 90 Z" fill="url(#roof)" stroke="#8E7230" stroke-width="1.5"/>
+  <circle cx="380" cy="150" r="30" fill="#0B1230" stroke="#D9B44A" stroke-width="2.5"/>
+  <g stroke="#D9B44A" stroke-width="3" stroke-linecap="round">
+    <line x1="380" y1="150" x2="380" y2="132"/>
+    <line x1="380" y1="150" x2="394" y2="156"/>
+  </g>
+
+  <!-- main block -->
+  <rect x="120" y="236" width="520" height="230" fill="url(#wall)" stroke="#D9B44A" stroke-width="2"/>
+  <rect x="112" y="224" width="536" height="18" rx="4" fill="url(#roof)"/>
+
+  <!-- windows, two rows -->
+  <g fill="#9FD3F2" opacity=".85">
+    <rect x="152" y="268" width="54" height="44" rx="4"/>
+    <rect x="226" y="268" width="54" height="44" rx="4"/>
+    <rect x="300" y="268" width="54" height="44" rx="4"/>
+    <rect x="406" y="268" width="54" height="44" rx="4"/>
+    <rect x="480" y="268" width="54" height="44" rx="4"/>
+    <rect x="554" y="268" width="54" height="44" rx="4"/>
+    <rect x="152" y="348" width="54" height="44" rx="4"/>
+    <rect x="226" y="348" width="54" height="44" rx="4"/>
+    <rect x="480" y="348" width="54" height="44" rx="4"/>
+    <rect x="554" y="348" width="54" height="44" rx="4"/>
+  </g>
+  <g stroke="#1B2550" stroke-width="2" opacity=".6">
+    <line x1="179" y1="268" x2="179" y2="312"/><line x1="253" y1="268" x2="253" y2="312"/>
+    <line x1="327" y1="268" x2="327" y2="312"/><line x1="433" y1="268" x2="433" y2="312"/>
+    <line x1="507" y1="268" x2="507" y2="312"/><line x1="581" y1="268" x2="581" y2="312"/>
+  </g>
+
+  <!-- entrance -->
+  <path d="M322 466 v-96 a38 38 0 0 1 76 0 v96 Z" fill="#0B1230" stroke="#D9B44A" stroke-width="2.5"/>
+  <line x1="360" y1="374" x2="360" y2="466" stroke="#D9B44A" stroke-width="1.6" opacity=".7"/>
+
+  <!-- steps and ground -->
+  <rect x="296" y="466" width="128" height="10" rx="3" fill="#3A4480"/>
+  <rect x="280" y="476" width="160" height="10" rx="3" fill="#2E376A"/>
+  <rect x="60"  y="486" width="640" height="8"  rx="4" fill="#222B57"/>
+
+  <!-- two trees, for a little life -->
+  <g fill="#1F6F4A">
+    <circle cx="96" cy="414" r="34"/><circle cx="74" cy="438" r="24"/><circle cx="120" cy="438" r="24"/>
+    <circle cx="664" cy="414" r="34"/><circle cx="642" cy="438" r="24"/><circle cx="686" cy="438" r="24"/>
+  </g>
+  <g stroke="#6B4A22" stroke-width="9" stroke-linecap="round">
+    <line x1="96" y1="452" x2="96" y2="486"/>
+    <line x1="664" y1="452" x2="664" y2="486"/>
+  </g>
+
+  <!-- kept left of centre so the “21 YEARS” seal, which sits over the
+       bottom-right of this slot on the page, does not cover it -->
+  <text x="300" y="526" text-anchor="middle" fill="#8C96C8"
+        font-family="system-ui, sans-serif" font-size="18" letter-spacing="1.2">
+    PHOTOGRAPH NOT IN THIS REPOSITORY
+  </text>
+</svg>

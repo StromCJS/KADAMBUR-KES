@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------
+#  No photographs or video in this repository.
+#
+#  The school's pictures show its building, its grounds and its
+#  children. They are kept out of version control deliberately: this
+#  repository is public, and a picture committed even once stays in the
+#  git history for ever, even if the file is deleted afterwards.
+#
+#  The page ships with a drawn placeholder instead. To see it with the
+#  real pictures, copy them into assets/img/ on your own machine — git
+#  will ignore them, so they can never be pushed by accident.
+# ---------------------------------------------------------------------
+
+# photographs
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.avif
+*.bmp
+*.tif
+*.tiff
+*.heic
+
+# video
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+
+# Note: .svg is NOT ignored. The crest and the building stand-in are
+# drawings, not photographs, so they belong in the repository.
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+node_modules/
